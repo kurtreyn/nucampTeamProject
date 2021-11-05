@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="nucamp team-project kurt reynolds" />
+    <meta name="author" content="Kurt Reynolds" />
+
+    <!-- BOOTSTRAP 4 CDN (USING CDN FOR THIS INSTEAD OF NODE MODULES) -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- LOCAL CSS STYLE SHEET GOES AFTER BOOTSTRAP -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Nucamp Team Project</title>
+  </head>
+  <body>
+    <!-- **** START AREA FOR CODE **** -->
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row custom-row">
+          <div class="col jumbotron-custom-col">
+            <img
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+              alt="arial view of laptops on desk"
+            />
+          </div>
+          <div class="col">
+            <h1>Nucamp Team-Project</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"> <!-- NAVBAR LOGO GOES HERE --></a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+          <div class="row custom-row-one">
+              <div class="col-6 custom-col-page-content">
+                  <h2>Git Commands</h2>
+                  <ul>
+                      <li>git clone *URL* -> clone the remote repository</li>
+                      <li>git pull origin main -> get the latest updates and changes from other devs *make sure you are in main branch on local machine before making a pull*</li>
+                      <li>git checkout -b *name of the branch you choose* -> create a new branch to work on so that the main branch is preserved</li>
+                      <li>git add .     -> add files to be committed</li>
+                      <li>git commit -m “*your comments here*” -> commit the files to be added</li>
+                      <li>git push origin *branch name you chose* -> push up your branch to GitHub for review</li>
+                      <li>  pull request *on GitHub* to merge new branch with main branch </li>
+                  </ul>
+              </div>
+              <div class="col-6 custom-col-page-content">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MnUd31TvBoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+
+
+
+    <!-- **** END AREA FOR CODE **** -->
+
+    <!-- BOOTSTRAP DEPENDENCIES: jQuery, JavaScript, Popper -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- LOCAL JAVASCRIPT -->
+    <script src="scripts/mainJS.js"></script>
+  </body>
+</html>
