@@ -1,21 +1,19 @@
 .jumbotron {
-    background: linear-gradient(lightblue, blue);
+  background: linear-gradient(lightblue, blue);
 }
 
 .jumbotron {
-    margin: 0;
+  margin: 0;
 }
 
 .jumbotron-custom-col {
-    max-width: 20rem;
-    
+  max-width: 20rem;
 }
 
 .jumbotron-custom-col img {
-    width: 100%;
+  width: 100%;
 }
 
 .custom-row-one {
-    padding: 1rem;
+  padding: 1rem;
 }
-
