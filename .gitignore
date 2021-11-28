@@ -1,3 +1,4 @@
 node_modules
 nucampTeamProject.code-workspace
 .prettierignore
+.DS_Store

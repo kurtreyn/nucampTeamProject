@@ -16,7 +16,7 @@
     />
 
     <!-- LOCAL CSS STYLE SHEET GOES AFTER BOOTSTRAP -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Nucamp Team Project</title>
   </head>
   <body>
@@ -53,13 +53,13 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html"
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/kurt.html">Kurt's Page</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Kurt's Page</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -70,46 +70,12 @@
 
     <div class="container">
       <div class="row custom-row-one">
-        <div class="col-6 custom-col-page-content">
-          <h2>Git Commands</h2>
-          <ul>
-            <li>git clone *URL* -> clone the remote repository</li>
-            <li>
-              git pull origin main -> get the latest updates and changes from
-              other devs *make sure you are in main branch on local machine
-              before making a pull*
-            </li>
-            <li>
-              git checkout -b *name of the branch you choose* -> create a new
-              branch to work on so that the main branch is preserved
-            </li>
-            <li>git add . -> add files to be committed</li>
-            <li>
-              git commit -m “*your comments here*” -> commit the files to be
-              added
-            </li>
-            <li>
-              git push origin *branch name you chose* -> push up your branch to
-              GitHub for review
-            </li>
-            <li>
-              pull request *on GitHub* to merge new branch with main branch
-            </li>
-          </ul>
-        </div>
-        <div class="col-6 custom-col-page-content">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/MnUd31TvBoU"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <div class="col-6 custom-col-page-content"></div>
+        <div class="col-6 custom-col-page-content"></div>
       </div>
+      <!-- END ROW -->
     </div>
+    <!-- END CONTAINER -->
 
     <div></div>
 
@@ -132,6 +98,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- LOCAL JAVASCRIPT -->
-    <script src="scripts/mainJS.js"></script>
+    <script src="../scripts/mainJS.js"></script>
+    <script src="../scripts/weatherApp.js"></script>
   </body>
 </html>
