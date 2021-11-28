@@ -1,0 +1,24 @@
+{
+  "name": "team-project",
+  "version": "1.0.0",
+  "description": "Nucamp team-project website using Bootstrap 4. Initiated by: Kurt Reynolds November 2021",
+  "main": "index.js",
+  "scripts": {
+    "nodemon": "npm run nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurtreyn/nucampTeamProject.git"
+  },
+  "author": "Kurt Reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kurtreyn/nucampTeamProject/issues"
+  },
+  "homepage": "https://github.com/kurtreyn/nucampTeamProject#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
