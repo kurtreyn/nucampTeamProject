@@ -4,8 +4,7 @@
   "description": "Nucamp team-project website using Bootstrap 4. Initiated by: Kurt Reynolds November 2021",
   "main": "index.js",
   "scripts": {
-    "nodemon": "npm run nodemon",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run app.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +12,9 @@
   },
   "author": "Kurt Reynolds",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "bugs": {
     "url": "https://github.com/kurtreyn/nucampTeamProject/issues"
   },
